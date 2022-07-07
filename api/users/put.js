@@ -3,7 +3,8 @@
  * @api {put} /users/:id Delete a User
  * @apiName PutUser
  * @apiGroup User
- *
+ * 
+ * @apiParam {Number} id Users unique ID.
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK

@@ -6,7 +6,11 @@
   "scripts": {
     "server": "http-server ./dist --port 3000 -c-1",
     "doc": "apidoc -i ./api -o dist -t ./template && npm run server",
-    "dev": "nodemon --watch ./api --ignore ./dist --exec npm run doc"
+    "dev": "nodemon --watch ./api --exec npm run doc",
+    "template": "nodemon --watch ./template --exec npm run doc"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,css"
   },
   "keywords": [],
   "author": "",
