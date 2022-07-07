@@ -10,16 +10,14 @@
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
- *     {
- *       "firstname": "John",
- *       "lastname": "Doe"
- *     }
  *
- * @apiError UserNotFound The id of the User was not found.
+ * @apiError name User name is required.
+ * @apiError email User email is required.
  *
  * @apiErrorExample Error-Response:
- *     HTTP/1.1 404 Not Found
+ *     HTTP/1.1 400 Bad Request
  *     {
- *       "error": "UserNotFound"
+ *       "name": "name is required",
+ *       "email": "email is required"
  *     }
  */

@@ -6,17 +6,17 @@
  * Define colors
  */
 :root {
-  --primary: #0088cc;
-  --white: #fff;
-  --light-gray: #ccc;
-  --main-gray: #777;
-  --dark-gray: #2d2d2d;
-  --hover-gray: #666;
-  --meth-get: green;
-  --meth-put: #e5c500;
-  --meth-post: #4070ec;
-  --meth-delete: #ed0039;
-  --red: #dc3545;
+  --primary: #1E88E5;
+  --white: #FAFAFA;
+  --light-gray: #ECEFF1;
+  --main-gray: #607D8B;
+  --dark-gray: #263238;
+  --hover-gray: #546E7A;
+  --meth-get: #43A047;
+  --meth-put: #FDD835;
+  --meth-post: #039BE5;
+  --meth-delete: #E53935;
+  --red: #B71C1C;
 }
 
 .color-primary {
@@ -53,8 +53,13 @@ input[type="date"] {
     url('./glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto/Roboto-Medium.ttf');
+}
+
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a:focus {
