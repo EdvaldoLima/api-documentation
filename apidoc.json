@@ -1,0 +1,13 @@
+{
+    "name": "Api Documentation Ttitle",
+    "version": "1.0.0",
+    "description": "Documentation Description",
+    "title": "Custom browser title",
+    "url" : "https://api.example.com",
+    "sampleUrl": "https://apidoc.free.beeceptor.com",
+    "header": {
+      "title": "Documentation",
+      "filename": "header.md"
+    }
+  }
+  

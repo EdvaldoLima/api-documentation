@@ -1,0 +1,22 @@
+{
+  "name": "api-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server ./dist --port 3000 -c-1",
+    "doc": "apidoc -i ./api -o dist -t ./template && npm run server",
+    "dev": "nodemon --watch ./api --ignore ./dist --exec npm run doc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "^0.51.1",
+    "dash-apidoc-template": "^1.0.0",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
